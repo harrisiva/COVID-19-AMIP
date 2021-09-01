@@ -1,0 +1,55 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, I can't understand you", "Please give me more info", " I am not sure I understand"]
+    },
+    {"tag": "covid-19",
+     "patterns": ["What is Covid-19?", "What is the global pandemic about?", "Which virus is spreading is spearding around the world?", "What virus is spreading around the world?"],
+     "responses": ["COVID-19 is a disease caused by a new strain of coronavirus. 'CO' stands for corona, 'VI' for virus, and 'D' for disease. Formerly, this disease was referred to as '2019 novel coronavirus' or '2019-nCoV.'"]
+    },
+    {"tag": "symptoms",
+     "patterns": ["What are the symptoms of Covid-19?", "What are the indicators of having Covid-19?", "How do you know if you have Covid-19?"],
+     "responses": ["The most common symptoms are fever, dry cough, and tiredness. More less common symptoms include aches and pains, sore throat, diarrohea, headache, loss of taste and smell, conjuctivitis and a rash. Some of the more serious symptoms include difficulty breathing, chest pain and loss of speech or movement. Upon any symptoms please contact a local doctor."]
+    },
+    {"tag": "testing",
+     "patterns": ["Where can we get tested for Covid-19?", "How to get tested for Covid-19?"],
+     "responses": ["To find places to get tested, please your goverment website to see all accessible centers available to you. Recieveing your Covid-19 test results can generally take between 1-3 days."]
+    },
+    {"tag": "prevention",
+     "patterns": ["How to prevent yourself from getting Covid-19?", "How to make sure you do not get Covid-19?", "What are the things you could do to not get the virus?"],
+     "responses": ["Some of the most common ways to prevent yourself from getting Covid-19 is by washing your hands, maintaining a safe distance from others, wearing a mask where physical distancing is not possible, don't touch your eyes, nose and mouth, and staying home if you feel unwell."]
+    },
+    {"tag": "treatment",
+     "patterns": ["How to treat yourself if you have Covid-19?", "What is the treatment for Covid-19?"],
+     "responses": ["The treatment for Covid-19 varies, please contact your local doctor for suitable treatment."]
+    },
+    {"tag": "vaccine_companies",
+     "patterns": ["What are the authorized Covid-19 vaccines?", "Which are the authorized Covid-19 vaccines?"],
+     "responses": ["There are 4 authorized vaccines: AstroZeneca, Jassen, Moderna, Pfizer-BioNTech. Which vaccine you are able to get depends on the availability and age group."]
+    },
+    {"tag": "vaccine_doses",
+     "patterns": ["How many vaccine doses does everybody need to get?"],
+     "responses": ["Everybody needs to get two doses of the Covid-19 vaccine."]
+    },
+    {"tag": "vaccine_side_effects",
+     "patterns": ["What are the side-effects of the vaccine?", "What are the side-effects of the Covid-19 vaccine?"],
+     "responses": ["Some of the common side-effects are redness, soreness and swelling around the injection site. Other side-effects include chills, fatigue, joint pain, headache, mild fever and muscle aches."]
+    },
+    {"tag": "vaccine_locations",
+        "patterns": ["Where can we get the Covid-19 vaccine?", "Locations to get Covid-19 vaccine"],
+        "responses": ["To find locations that offer Covid-19 vaccine near your home, please visit the government website for a list of locations or visit local pharmacies."]
+    }
+]
+}
