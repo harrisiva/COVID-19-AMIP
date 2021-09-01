@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+    <div class="jumbotron text-center" style="background-color: rgb(162, 221, 255);">
+        <h1 class="display-4" style="color:rgb(33, 33, 33);">COVID-19 AMIP</h1>
+        <p class="lead" style="color:rgb(33, 33, 33);">SARS-CoV-2 Anti-Misinformation Project</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="{{ url_for('chat_page') }}" role="button">Start Chatting</a>
+        </p>
+    </div>
+    
+    <div class="container shadow-lg p-3 mb-5 rounded">
+        <div class="row">
+        <div class="col-sm-4">
+            <h3>About</h3>
+            <p>SARS-CoV-2 (COVID-19), originated out of Wuhan, China in December 2019, is a contagious disease that spread globally leading to an pandemic. The restrictions and preventive measures imposed by governments unintentionally created a plethora of doubt, misinformation and confusion. The power of dialogue in education is renowned. COVID-19 AMIP was built to combat the misinformation using informative and interactive dialogues.</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Technology</h3>
+            <p>COVID-19 AIMP uses artificial intelligence (AI) to create interactive conversations with the user. Backed by Google Brain Teams AI project TensorFlow, an end-to-end open source platform for machine learning, that has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets developers easily build and deploy ML powered applications. The main AI model uses neural networks, natural language toolkit and Stochastic gradient descent.</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Purpose</h3>
+            <p>Misinformation is false, inaccurate, or misleading information that is communicated to deceive. Social media has propelled the deliverance of misinformation to all time highs. The fast rise in COVID-19 cases and public health restrictions caused plenty of confusion. The instantaneous rate of change resulted in conspiracy theories about the scale of the pandemic and the origin, prevention, diagnosis, and treatment of the disease.</p>
+        </div>
+        </div>
+    </div>
+{% endblock %}
